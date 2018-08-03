@@ -1,3 +1,6 @@
+# For text relocations in /system/vendor/lib/libmmjpeg.so
+allow mediaserver system_file:file execmod;
+
 # mediaserver - multimedia daemon
 type mediaserver, domain;
 type mediaserver_exec, exec_type, file_type;
